@@ -1,0 +1,204 @@
+
+-- This is my personal script hub, why are you here, go away wierdo
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local DarkDex = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local Other1 = Instance.new("TextButton")
+local Other3 = Instance.new("TextButton")
+local Other2 = Instance.new("TextButton")
+local ESPOff = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local ESPOn = Instance.new("TextButton")
+local close = Instance.new("ImageButton")
+local opengui = Instance.new("Frame")
+local open = Instance.new("ImageButton")
+local destroy = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+main.BackgroundTransparency = 0.400
+main.BorderColor3 = Color3.fromRGB(27, 42, 53)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.492227972, 0, 0.522292972, 0)
+main.Size = UDim2.new(0, 387, 0, 189)
+main.Draggable = true
+main.Active = true
+
+DarkDex.Name = "DarkDex"
+DarkDex.Parent = main
+DarkDex.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+DarkDex.BackgroundTransparency = 0.600
+DarkDex.BorderColor3 = Color3.fromRGB(255, 255, 255)
+DarkDex.Position = UDim2.new(0.0326975472, 0, 0.0633855388, 0)
+DarkDex.Size = UDim2.new(0, 172, 0, 34)
+DarkDex.Font = Enum.Font.SourceSans
+DarkDex.Text = "Dark Dex"
+DarkDex.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarkDex.TextSize = 14.000
+DarkDex.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Downarg/DarkDexV4/main/Source'))()
+end)
+-- or maybe im talking to myself
+TextButton.Parent = main
+TextButton.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+TextButton.BackgroundTransparency = 0.600
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.524618208, 0, 0.0633855388, 0)
+TextButton.Size = UDim2.new(0, 172, 0, 34)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "IY"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Other1.Name = "Other1"
+Other1.Parent = main
+Other1.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Other1.BackgroundTransparency = 0.600
+Other1.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Other1.Position = UDim2.new(0.524618208, 0, 0.772380233, 0)
+Other1.Size = UDim2.new(0, 172, 0, 34)
+Other1.Font = Enum.Font.SourceSans
+Other1.Text = "Clogs"
+Other1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Other1.TextSize = 14.000
+Other1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Downarg/Clogs/main/source'))()
+end)
+
+
+Other3.Name = "Other3"
+Other3.Parent = main
+Other3.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Other3.BackgroundTransparency = 0.600
+Other3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Other3.Position = UDim2.new(0.524618208, 0, 0.285607755, 0)
+Other3.Size = UDim2.new(0, 172, 0, 34)
+Other3.Font = Enum.Font.SourceSans
+Other3.Text = "Other"
+Other3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Other3.TextSize = 14.000
+Other3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('coolio link'))()
+end)
+
+
+Other2.Name = "Other2"
+Other2.Parent = main
+Other2.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Other2.BackgroundTransparency = 0.600
+Other2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Other2.Position = UDim2.new(0.524618208, 0, 0.518411994, 0)
+Other2.Size = UDim2.new(0, 172, 0, 34)
+Other2.Font = Enum.Font.SourceSans
+Other2.Text = "Other"
+Other2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Other2.TextSize = 14.000
+Other2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('wow'))()
+end)
+
+
+ESPOff.Name = "ESP-Off"
+ESPOff.Parent = main
+ESPOff.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+ESPOff.BackgroundTransparency = 0.600
+ESPOff.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ESPOff.Position = UDim2.new(0.0326975472, 0, 0.518411994, 0)
+ESPOff.Size = UDim2.new(0, 172, 0, 34)
+ESPOff.Font = Enum.Font.SourceSans
+ESPOff.Text = "ESP - Off"
+ESPOff.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESPOff.TextSize = 14.000
+ESPOff.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Downarg/ESP-off/main/Source'))()
+end)
+
+
+TextButton_2.Parent = main
+TextButton_2.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+TextButton_2.BackgroundTransparency = 0.600
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.0326975472, 0, 0.772380233, 0)
+TextButton_2.Size = UDim2.new(0, 172, 0, 34)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "BypassFlight"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0) --how did you find this hub
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Downarg/Fly/main/Source'))()
+end)
+
+
+ESPOn.Name = "ESP-On"
+ESPOn.Parent = main
+ESPOn.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+ESPOn.BackgroundTransparency = 0.600
+ESPOn.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ESPOn.Position = UDim2.new(0.0326975472, 0, 0.285607755, 0)
+ESPOn.Size = UDim2.new(0, 172, 0, 34)
+ESPOn.Font = Enum.Font.SourceSans
+ESPOn.Text = "ESP - On" --it was meant to be mine
+ESPOn.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESPOn.TextSize = 14.000
+ESPOn.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Downarg/ESP/main/source'))()
+end)
+
+-- and for a few friends
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BackgroundTransparency = 0.800
+close.Position = UDim2.new(0.888020813, 0, -0.227513224, 0)
+close.Size = UDim2.new(0, 43, 0, 43)
+close.Image = "http://www.roblox.com/asset/?id=3181447465"
+close.MouseButton1Down:connect(function()
+	main.Visible = false
+	opengui.Visible = true
+end)
+
+opengui.Name = "opengui"
+opengui.Parent = ScreenGui
+opengui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+opengui.BackgroundTransparency = 1.000
+opengui.Position = UDim2.new(0, 0, 0.430997878, 0)
+opengui.Size = UDim2.new(0, 50, 0, 43)
+opengui.Visible = true
+
+destroy.Name = "destroy"
+destroy.Parent = main
+destroy.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+destroy.BackgroundTransparency = 0.400
+destroy.BorderColor3 = Color3.fromRGB(255, 255, 255)
+destroy.Position = UDim2.new(0, 0, -0.227513239, 0)
+destroy.Size = UDim2.new(0, 66, 0, 41)
+destroy.Font = Enum.Font.SourceSans
+destroy.Text = "Destroy GUI"
+destroy.TextColor3 = Color3.fromRGB(0, 0, 0)
+destroy.TextSize = 14.000
+destroy.MouseButton1Down:connect(function()
+	main:destroy()
+	opengui:destroy()
+end)
+--theres nothing to see idk why you thought this was interesting
+open.Name = "open"
+open.Parent = opengui
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.BackgroundTransparency = 0.800
+open.Size = UDim2.new(0, 49, 0, 43)
+open.Image = "http://www.roblox.com/asset/?id=3181447465"
+open.Visible = true
+open.MouseButton1Down:connect(function()
+	main.Visible = true
+end)
